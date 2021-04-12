@@ -8,7 +8,10 @@
     <title>ZURI | Home</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -22,9 +25,9 @@
 </head>
 
 <body>
-    
 
-     <!--==========================
+
+    <!--==========================
         navigation 
     ============================-->
 
@@ -39,8 +42,9 @@
                 <a href="#">Curiculum</a>
                 <a href="#">Contact Us</a>
                 <div class="btn_holder">
-                <a href="#" class="nav-link-btn">Join Zuri Training</a>
-            </div>
+                    <a href="#reg-form" class="nav-link-btn">Join Zuri
+                        Training</a>
+                </div>
             </div>
         </div>
         <span class="open_btn" onclick="openNav()">&#9776;</span>
@@ -55,16 +59,79 @@
             <a href="#">Contact Us</a>
             <a href="careers.html">Careers</a>
             <div class="btn_holder">
-                <a href="#" class="nav-link-btn">Join Zuri Training</a>
+                <a href="#reg-form" class="nav-link-btn">Join Zuri Training</a>
             </div>
         </div>
 
     </div>
-    
-    
+
+
     <!--==========================
         End of navigation 
     ============================-->
+
+
+    <div class="hero">
+        <h1>Gain enough knowledge to<br> help scale through the tech <br>industry for free.</h1>
+        <div class="other">
+            <svg class="line" width="55" height="4" viewBox="0 0 55 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="55" height="4" fill="#E7332B" />
+            </svg>
+
+            <p>A Beginner Training For Complete Tech Novices Or Beginners. Our interest is in reaching as many people as
+                possible who would normally not have access or funds to afford such training. It is completely free for
+                the participants.
+            </p>
+            <a href="#reg-form">Enroll</a>
+        </div>
+    </div>
+    <div class="hero_img">
+        <img src="./assets/images/hero-1.svg">
+        <img src="./assets/images/hero-2.svg">
+        <img src="./assets/images/hero-3.svg">
+        <img src="./assets/images/hero-4.svg">
+    </div>
+
+    <div class="why_zuri">
+        <h6>WHY ZURI TRAINING?</h6>
+        <h2>
+            At Zuri Training, you gain access to enough<br> knowledge to introduce and aid your success in<br> the tech
+            industry.
+        </h2>
+        <div class="why_zuri_reasons">
+            <div class="box">
+                <img src="./assets/images/laptop.svg">
+                <h4>Fully Remote</h4>
+                <p>100% online classes available to anyone in the world</p>
+            </div>
+            <div class="box">
+                <img src="./assets/images/laptop.svg">
+                <h4>Hands-on Experience</h4>
+                <p>We don't just teach you theory, we show you how to build things</p>
+            </div>
+            <div class="box">
+                <img src="./assets/images/laptop.svg">
+                <h4>Collaborative Learning</h4>
+                <p>We connect you with like minds to grow together</p>
+            </div>
+            <div class="box">
+                <img src="./assets/images/laptop.svg">
+                <h4>Real life Projects</h4>
+                <p>We give CV worthy projects to help you hit the ground running</p>
+            </div>
+            <div class="box">
+                <img src="./assets/images/laptop.svg">
+                <h4>Beginner Friendly</h4>
+                <p>We provide step-by-step procedures on how to get things done</p>
+            </div>
+            <div class="box">
+                <img src="./assets/images/laptop.svg">
+                <h4>Mentorship</h4>
+                <p>During and after the program you have access to experienced seniors.</p>
+            </div>
+        </div>
+        <a href="#">View Curriculum</a>
+    </div>
 
 
 
@@ -77,13 +144,13 @@
             <div class="row">
                 <div class="col-md-6 mb-5 enrol-now-text">
                     <h4>Break into tech like a Pro</h4>
-                    <p>Basic introduction to software development and design aimed at complete beginners which anyone 
-                        can join. Each week you'll be given course content, have opportunity to attend live classes and 
+                    <p>Basic introduction to software development and design aimed at complete beginners which anyone
+                        can join. Each week you'll be given course content, have opportunity to attend live classes and
                         work on tasks to help you understand each topic better
                     </p>
                     <div class="enrol-now-btn mt-5">
-                    <a href="#">Enroll Now</a>
-                </div>
+                        <a href="#reg-form">Enroll Now</a>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <img src="assets/images/Video.png" alt="" class="img-fluid">
@@ -110,57 +177,64 @@
                     <div class="training-card">
                         <span class="fe">HTML | CSS | JS</span>
                         <h5>Frontend Development</h5>
-                        <p>This track deals with the aspect of your application that the users interact with. A front-end developer will be able to correctly interpret a given design to the user interface.</p>
-                        
+                        <p>This track deals with the aspect of your application that the users interact with. A
+                            front-end developer will be able to correctly interpret a given design to the user
+                            interface.</p>
+
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="training-card">
                         <span class="be">php | python | Javascript</span>
                         <h5>Backend Development</h5>
-                        <p>This track deals with the aspect of the application the user does not directly interact with. It allows the frontend function either by running some back-end code or connecting to the database.</p>
-                        
+                        <p>This track deals with the aspect of the application the user does not directly interact with.
+                            It allows the frontend function either by running some back-end code or connecting to the
+                            database.</p>
+
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="training-card">
                         <span class="de">ui | ux | graphic</span>
                         <h5>Design</h5>
-                        <p>This track deals with the aspect of the application the user does not directly interact with. 
-                            It allows the frontend function either by running some back-end code or connecting to the 
+                        <p>This track deals with the aspect of the application the user does not directly interact with.
+                            It allows the frontend function either by running some back-end code or connecting to the
                             database.
                         </p>
-                        
+
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="training-card">
                         <span class="me">java | flutter | kotlin</span>
                         <h5>Mobile Development</h5>
-                        <p>The mobile track contains a list of tools and languages needed for a developer to create mobile applications. A mobile application can be IOS or Android.</p>
-                        
+                        <p>The mobile track contains a list of tools and languages needed for a developer to create
+                            mobile applications. A mobile application can be IOS or Android.</p>
+
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="training-card">
                         <span class="cl">aws | azure</span>
                         <h5>Cloud</h5>
-                        <p>The cloud track is an extension of the backend track. It involves cloud tools that’ll allow the participant to develop in the cloud using AWS or Azure cloud services</p>
-                        
-                        
+                        <p>The cloud track is an extension of the backend track. It involves cloud tools that’ll allow
+                            the participant to develop in the cloud using AWS or Azure cloud services</p>
+
+
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="training-card">
                         <span class="fr">REACTJS | LARAVEL | DJANGO</span>
                         <h5>Framework</h5>
-                        <p>During the program we will be exploring several useful frameworks to give you an edge in the industry and help you develop complex applications much faster</p>
+                        <p>During the program we will be exploring several useful frameworks to give you an edge in the
+                            industry and help you develop complex applications much faster</p>
                     </div>
                 </div>
-                
+
             </div>
             <div class="text-center">
-                <a href="#" class="training-enrol-btn">Enroll Now</a>
+                <a href="#reg-form" class="training-enrol-btn">Enroll Now</a>
             </div>
         </div>
     </section>
@@ -169,6 +243,143 @@
         END OF TRAINING SECTION
     ============================-->
 
+    <div id="reg-form">
+        <section class="registration-form">
+            <div class="section_padding">
+                <form>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <div class="input-box">
+                                    <label>First Name</label><br>
+                                    <input type="text" placeholder="Enter your first name" required class="data">
+                                </div>
+                                <div class="input-box">
+                                    <label>Email Address</label><br>
+                                    <input type="text" placeholder="Enter your email adress" required class="data">
+                                </div>
+                                <div class="input-box">
+                                    <label>Country</label><br>
+                                    <select>
+                                        <option value="" disabled selected>Select country</option>
+                                        <option>Nigeria</option>
+                                        <option>Kenya</option>
+                                        <option>Canada</option>
+                                        <option>Ghana</option>
+                                        <option>India</option>
+                                        <option>Malawi</option>
+                                        <option>Greece</option>
+                                        <option>England</option>
+                                        <option>Iceland</option>
+                                        <option>Pakistan</option>
+                                        <option>Mali</option>
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <label>Gender</label><br>
+                                    <select>
+                                        <option value="" disabled selected>Select your gender</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <label>Experience Level</label><br>
+                                    <select>
+                                        <option value="" disabled selected>Select experience level</option>
+                                        <option>None</option>
+                                        <option>Beginner</option>
+                                        <option>Mid-level</option>
+                                        <option>Expert</option>
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <label>Employment Staus</label><br>
+                                    <select>
+                                        <option value="" disabled selected>Select employment status</option>
+                                        <option>Unemployed</option>
+                                        <option>Employed</option>
+                                        <option>Self Employed</option>
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <label>How did you hear about us?</label><br>
+                                    <select>
+                                        <option value="" disabled selected>Select from the list</option>
+                                        <option>Select One</option>
+                                        <option>Facebook</option>
+                                        <option>Don Jazzy</option>
+                                        <option>Twitter</option>
+                                        <option>Ogbeni Dipo</option>
+                                        <option>A Friend</option>
+                                        <option>HNG</option>
+                                        <option>I4G Circles</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <div class="input-box">
+                                    <label>Last Name</label><br>
+                                    <input type="text" placeholder="Enter your last name" required class="data">
+                                </div>
+                                <div class="input-box">
+                                    <label>Phone Number</label><br>
+                                    <input type="text" placeholder="Enter your phone number" required class="data">
+                                </div>
+                                <div class="input-box">
+                                    <label>Track</label><br>
+                                    <select>
+                                        <option value="" disabled selected>Choose your track</option>
+                                        <option>Front-end</option>
+                                        <option>Back-end</option>
+                                        <option>Design</option>
+                                        <option>Mobile</option>
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <label>Age Range</label><br>
+                                    <select>
+                                        <option value="" disabled selected>Select age range</option>
+                                        <option>16-18</option>
+                                        <option>19-20</option>
+                                        <option>20-40</option>
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <label>Educational level</label><br>
+                                    <select>
+                                        <option value="" disabled selected>Select educational level</option>
+                                        <option>None</option>
+                                        <option>Grade School</option>
+                                        <option>High School</option>
+                                        <option>Bachelor's Degree</option>
+                                        <option>Masters Degree</option>
+                                        <option>Post Graduate Degree</option>
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <label>Say something about yourself</label><br>
+                                    <input type="text" placeholder="Do this in one single sentence..."
+                                        class="text-area">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-center reg-btn">
+                        <a href="#" class="training-enrol-btn2">Enroll Now</a>
+                    </div>
+                </form>
+
+
+
+
+            </div>
+    </div>
+    </section>
 
 
 
@@ -182,15 +393,16 @@
             <div class="row">
                 <div class="col-md-4 mb-5 footer-logo">
                     <h5>Zuri Training</h5>
-                    <p>Kickstart Your Tech Journey through expert advice. You don't just learn the theory, 
+                    <p>Kickstart Your Tech Journey through expert advice. You don't just learn the theory,
                         we show you how to build things
                     </p>
 
                     <div class="footer-copyright">
                         <p>&#169;<script>
-                            document.write(new Date().getFullYear());</script> Team-Fury. All rights reserved</p>
+                                document.write(new Date().getFullYear());
+                            </script> Team-Fury. All rights reserved</p>
                     </div>
-                    
+
                 </div>
                 <div class="col-md-3 mb-5">
                     <h5>Track</h5>
@@ -213,7 +425,7 @@
             </div>
             <hr>
         </div>
-        
+
         <div class="footer-links">
             <div class="text-center">
                 <a href="#"><i class="fa fa-twitter"></i></a>
